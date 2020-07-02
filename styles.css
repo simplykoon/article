@@ -1,0 +1,125 @@
+body {
+				background-color: hsl(210, 46%, 95%); 
+				font-family:Manrope; 
+				font-size:small; 
+				margin-top:60px; 
+				}
+.mainbody { 
+				margin:20px;
+				width: 300px; 
+				background-color: white; 
+				border-radius:10px;
+				}
+.image {
+				height:250px;
+				width: 300px; 
+				border-radius: 10px 10px 0px 0px; 
+				}
+.a {
+				padding:20px; 
+				padding-bottom:0px; 
+				}
+.pic {
+				height:50px; 
+				width:50px; 
+				border-radius:50%; 
+				}				
+.avatar {
+				padding:20px;
+				display:flex; 
+				position:relative; 
+		 }
+.go {
+				padding:10px; 
+				text-align:center; 
+				}
+.name {
+				margin:10px; 
+				}
+.btn {
+				height : 30px; 
+				width : 30px; 
+				border-radius : 50%;
+				background-color: hsl(210, 46%, 95%);
+				padding:6px 3px 3px 6px;
+				border-style:none; 
+				top: 30px; 
+				right: 35px; 
+				position:absolute; 
+			  }
+	 .btn:hover {
+	 				background-color:hsl(217, 19%, 35%);
+	 				} 
+	 					
+.new {
+	 					position:relative; 
+	 								}
+.links {
+				display: none; 
+				position:absolute; 
+				background-color: hsl(217, 19%, 35%); 
+				height: 25px; 
+				width: 60%;
+				border-radius:5px; 
+				padding: 5px 15px 5px 15px;
+				right:20px; 
+				top:-120px;
+				}	
+.links:before {
+				content:"";
+				  	position: absolute; 
+						top: 30px;
+						right:24px; 
+						width: 0; 
+						height: 0; 
+						border-left: 8px solid transparent; 
+						border-top: 13px solid hsl(217, 19%, 35%);
+						border-right: 8px solid transparent ;
+				}
+	.sh { 
+					font-size:small; 
+					color:hsl(212, 23%, 69%); 
+					}
+		.bold {
+						color:hsl(217, 19%, 35%);
+						font-size:medium; 
+						}		
+		.notbold {
+						color:hsl(214, 17%, 51%);
+						font-size:small; 
+						}
+		.date		{
+						color:hsl(212, 23%, 69%);
+						}
+		.p {
+						margin : 3px 10px 3px 10px ; 
+						}
+			.q {
+						margin : 3px 10px 3px 10px ; 
+						}
+			.r {
+						margin : 3px 10px 3px 10px; 
+						}			
+@media screen and (min-width:800px) {
+			body {
+								margin-left:100px;
+								display:block; 
+								}
+			.mainbody {
+								display:flex; 
+								width: 80%;
+								height:300px; 
+								}
+			.image {
+									border-radius: 10px 0px 0px 10px;
+				     width:270px;
+				     height:300px;  
+									}	
+		
+			.links {
+							width:50%;
+							}		
+			 .bold {
+			 				font-size:large; 
+			 				}
+				}		
